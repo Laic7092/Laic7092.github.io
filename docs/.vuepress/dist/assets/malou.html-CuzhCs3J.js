@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-61de13df","path":"/test/malou.html","title":"malou页面","lang":"zh-CN","frontmatter":{"title":"malou页面","createTm":"2023-11-29T00:00:00.000Z","tag":"知乎回答"},"headers":[],"git":{},"filePathRelative":"test/malou.md"}');export{t as data};
