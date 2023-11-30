@@ -1,0 +1,1 @@
+import{_ as t,r as o,o as n,c as s,a as c}from"./app-Bb_DkhIL.js";const r={};function _(a,l){const e=o("postList");return n(),s("div",null,[c(e)])}const m=t(r,[["render",_],["__file","index.html.vue"]]);export{m as default};

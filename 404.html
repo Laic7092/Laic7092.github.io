@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.0">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/blog/favicon.ico"><title>Laix's blog</title><meta name="description" content="这是我的第一个博客">
+    <link rel="preload" href="/blog/assets/style-QRwgyjbP.css" as="style"><link rel="stylesheet" href="/blog/assets/style-QRwgyjbP.css">
+    <link rel="modulepreload" href="/blog/assets/app-Bb_DkhIL.js"><link rel="modulepreload" href="/blog/assets/404.html-r6aI8Oiv.js"><link rel="modulepreload" href="/blog/assets/404.html-fw_P5Kff.js">
+    <link rel="prefetch" href="/blog/assets/index.html-KKcMyYcx.js" as="script"><link rel="prefetch" href="/blog/assets/abc.html-0jI10vqV.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-PK8ne40r.js" as="script"><link rel="prefetch" href="/blog/assets/malou.html-u31Rgm3c.js" as="script"><link rel="prefetch" href="/blog/assets/qwe.html-hCs1KGnn.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-SvxoZYYN.js" as="script"><link rel="prefetch" href="/blog/assets/abc.html-6_4h6dK3.js" as="script"><link rel="prefetch" href="/blog/assets/index.html-TSTV9vaf.js" as="script"><link rel="prefetch" href="/blog/assets/malou.html-zhlCLwk6.js" as="script"><link rel="prefetch" href="/blog/assets/qwe.html-W-n7rthN.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/blog/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/blog/assets/app-Bb_DkhIL.js" defer></script>
+  </body>
+</html>
